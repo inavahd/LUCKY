@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>YelpCamp</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" type="text/css" href="lan.css"> -->
+		<style>
+body {
+  background-color: #000;
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px 10px black;
+}
+
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  /*padding-top: 40vh;*/
+}
+
+#landing-header h1 {
+  color: #fff;
+}
+
+.slideshow { 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow li { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 150s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+  background-image: url(1.jpg);
+}
+.slideshow li:nth-child(2) { 
+  background-image: url(2.jpg);
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url(3.jpg);
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url(4.jpg);
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(5.jpg);
+  animation-delay: 40s; 
+}
+.slideshow li:nth-child(6) { 
+  background-image: url(6.jpg);
+  animation-delay: 50s; 
+}
+.slideshow li:nth-child(7) { 
+  background-image: url(7.jpg);
+  animation-delay: 60s; 
+}
+.slideshow li:nth-child(8) { 
+  background-image: url(8.jpg);
+  animation-delay: 70s; 
+}
+.slideshow li:nth-child(9) { 
+  background-image: url(9.jpg);
+  animation-delay: 80s; 
+}
+.slideshow li:nth-child(10) { 
+  background-image: url(10.jpg);
+  animation-delay: 90s; 
+}
+.slideshow li:nth-child(11) { 
+  background-image: url(11.jpg);
+  animation-delay: 100s; 
+}
+.slideshow li:nth-child(12) { 
+  background-image: url(12.jpg);
+  animation-delay: 110s; 
+}
+.slideshow li:nth-child(13) { 
+  background-image: url(13.jpg);
+  animation-delay: 120s; 
+}
+.slideshow li:nth-child(14) { 
+  background-image: url(14.jpg);
+  animation-delay: 130s; 
+}
+.slideshow li:nth-child(15) { 
+  background-image: url(15.jpg);
+  animation-delay: 140s; 
+}
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  5% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+}
+
+		</style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+	</head>
+	<body>
+
+		<div id="landing-header">
+			<h1>Happy Birthday LUCKY!</h1>
+		</div>
+
+		<ul class="slideshow">
+			<li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+		</ul>
+		
+	</body>
+</html>
